@@ -1,0 +1,192 @@
+*{
+    font-family: 'Inter';
+    margin: 0;  
+}
+section{
+    margin: 0;
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header{
+    margin: 0;
+    width: 1440px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    margin-left: 43px;
+    margin-top:16px;
+    margin-bottom: 16px;
+    width: 60px;
+    height: 62.35px; 
+}
+
+.buscar{
+    margin-left: 141px;
+    width: 670px;
+    height: 35px;
+    position: relative;
+    border-radius: 25px;
+    border-style: solid;
+    color: white;
+    background-color: #484848
+}
+.lupa{
+    margin-left: -60px;
+    position: relative;
+    width: 25px;
+    height: 23.62px;
+
+}
+.menuhome{
+    margin-left: 36px;
+    margin-top: 47px;
+    width: 47px;
+    height: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.menunotification{
+    margin-left: 36px;
+    margin-top: 26px;
+    width: 47px;
+    height: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+
+}
+
+.menucoments{
+    margin-left: 36px;
+    margin-top: 26px; 
+    width: 47px;
+    height: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+
+.menusettings{
+    margin-left: 36px;
+    margin-top: 26px;
+    width: 47px;
+    height: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.feed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+.posttexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.layoutpost{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 50px;
+}
+.iconespost{
+    width: 94x;
+    height: 24px;
+}
+.botaopostar{
+    width: 98x;
+    height: 40px;
+    color: black;
+    background-color: #22A2F2;
+    border-radius: 10px;
+    border-style: none;
+}
+.postagem{
+    width: 670px;
+    height: 142px;
+    position: relative;
+    border-radius: 10px;
+    border-color: #484848;
+    color: white;
+    background-color: #181B24;
+    border-style: solid;
+
+}
+
+.postimagem{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #484848;
+    width: 670px;
+    height: 709px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.foto{
+    width: 500px;
+    height: 497.88px;
+    margin-top: 47px;
+
+}
+
+.perfilusuario{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.perfilfoto{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.botaoadd{
+    color: #22A2F2;
+    background-color: #484848;
+    border-radius: 15px;
+    border-style: none;
+}
+
+.pessoas{
+    width: 311px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pessoassugestoes{
+    display: flex;
+    align-items: center;
+    width: 307px;
+    height: 50px;
+    justify-content: space-between;
+}
